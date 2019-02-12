@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body {
+
+}
+body.noScroll {
+    overflow: hidden;
+}
+
+
+
+@include respond-to($desktop) {
+
+}
+

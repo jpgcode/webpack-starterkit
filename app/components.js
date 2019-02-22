@@ -4,16 +4,21 @@ import './assets/styles/main.scss';
 // Global
 import './assets/scripts/global';
 
-// Handlebars
+// Pages imports
 import './pages/index.hbs';
 
+// Components imports JS
 import { intro } from './components/intro/intro';
+
+// Components imports hbs
 import './components/intro/intro.hbs';
+
+// Components imports JSON
 import './components/intro/intro.json';
 
 /**
  * Module definition
- * Object that contains Javascript modules
+ * Object that contains Javascript modules, add any module you want to init based on data-action
  */
 const APP = {
     intro

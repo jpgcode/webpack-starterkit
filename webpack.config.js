@@ -7,7 +7,6 @@ module.exports = {
     mode: 'development',
     entry: {
         main: [
-            'webpack-hot-middleware/client',
             path.join(__dirname, '/app/main.js')
         ],
     },

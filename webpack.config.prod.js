@@ -88,11 +88,8 @@ const config = {
         new assembleWebpack.AttachedPlugin({
             baseLayout: ['./app/layouts/**/*.hbs'],
             basePages: ['./app/pages/**/*.hbs'],
-            partialsLayout: ['./app/components/**/*.hbs'],
-            partialsData: [
-              './app/components/**/*.json',
-              './app/pages/**/*.json'
-            ],
+            partialsLayout: ['app/{bower_components,components,core_components}/**/*.hbs'],
+            partialsData: ['app/{pages,bower_components,components,core_components,data}/**/*.json'],
             helpers: [handlebarsHelpers(), './app/helpers/helpers.js']
         }),
         new WebpackShellPlugin({

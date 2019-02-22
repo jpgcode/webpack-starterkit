@@ -9,6 +9,7 @@ import './pages/index.hbs';
 
 import { intro } from './components/intro/intro';
 import './components/intro/intro.hbs';
+import './components/intro/intro.json';
 
 /**
  * Module definition

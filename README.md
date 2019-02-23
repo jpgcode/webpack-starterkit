@@ -1,5 +1,9 @@
-To run the project follow the steps below:
+# Webpack Starterkit
+Static site generator with Webpack, Handlebars, ES6 and Sass.
 
+## Development mode
 - Run `npm install` to download all dependencies
-- To local run `npm run dev`
-- To build the static dist folder with final files `npm run build`
+- Run `npm run dev`
+
+## Generate static files
+All compiled  PROD ready assets will be build and added into the `dist` after running `npm run build`.

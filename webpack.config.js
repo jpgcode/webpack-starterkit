@@ -16,7 +16,8 @@ module.exports = {
         publicPath: 'http://localhost:9000/assets/scripts'
     },
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
+        contentBase: [path.join(__dirname, 'dist'), path.join(__dirname, 'app')],
+        watchContentBase: true,
         compress: true,
         open: true,
         port: 9000

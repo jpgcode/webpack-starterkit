@@ -1,11 +1,14 @@
 # Webpack Starterkit
 Static site generator with Webpack, Handlebars, ES6 and Sass.
 
-## Development mode
+## Installation
+- Run `npm run build` to create the dist folder
 - Run `npm install` to download all dependencies
+
+## Development mode
 - Run `npm run dev`
 
-## Generate static files
+## Static files for PROD
 All compiled  PROD ready assets will be build and added into the `dist` after running `npm run build`.
 
 ## Requirements
